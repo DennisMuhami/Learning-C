@@ -22,7 +22,7 @@ int main (){
         name[strlen(name)-1] = '\0';
     }
 
-    printf("\nHello, %s !!", &name);
+    printf("\nHello %s,!! ", &name);
     printf("How are you?");
 
     return 0;
